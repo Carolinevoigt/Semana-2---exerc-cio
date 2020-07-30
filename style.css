@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**
+*TELA INICIAL
+*/
+
+body.capa {
+    background-image: url("capa/golfinho.jpg");
+    background-position: center center;
+    background-size: contain;
+    text-align: center;
+}
+
+section#tela_inicial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 100%;
+}
+
+section#tela_inicial h1 {
+    font-size: 70px;
+    text-decoration: underline;
+    background-color: deepskyblue;
+}
+
+section#tela_inicial p {
+    font-size: 20px;
+    padding: 100px;
+}
+
+section#tela_inicial button {
+    padding: 15px 25px;
+    font-size: 20px;
+    background: deepskyblue;
+    color: #000;
+    border: none;
+    margin-top: 40px;
+}
+
+/**
+* PROJETO
+*/
+
+section#projeto {
+    background-color: rgb(142, 248, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+section#projeto h1 {
+    font-size: 50px;
+    padding: 15px;
+}
+
+section#projeto p {
+    text-align: justify;
+    font-size: 16px;
+    padding: 20px;
+    margin: 10px 50px;
+}
+
+section#projeto h1:hover {
+    color: blue;
+    transition: all linear 0.3s;
+} 
+
+section#projeto p:hover {
+    background: deepskyblue;
+    transition: all linear 0.5s;
+}
+
+
+/**
+* METAS
+*/
+
+
+section#metas {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+section#metas .item img {
+    width: 100px;
+    padding: 20px;
+}
+
+section#metas .item {
+    background: rgba(0,0,0,0.1);
+    padding: 10px;
+    margin: 20px;
+}
+
+section#metas .item:hover {
+    background: rgb(142, 248, 248);
+    transition: all linear 0.5s;
+}
+
+section#metas h1 {
+    font-size: 50px;
+    padding: 20px;
+}
+
+section#metas h1:hover {
+    color: blue;
+    transition: all linear 0.3s;
+} 
+
+section#metas p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 20px;
+}
